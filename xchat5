@@ -1,0 +1,12 @@
+#!/bin/sh
+
+source $(dirname $0)/maclike-exec.sh
+
+BINARY=xchat
+BINARY_ARGS=$*
+MATCH=xchat.Xchat
+DELAY=0.5
+WORKSPACE=5
+MAXIMIZE=1
+
+launch

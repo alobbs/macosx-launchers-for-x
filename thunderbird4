@@ -1,0 +1,12 @@
+#!/bin/sh
+
+source $(dirname $0)/maclike-exec.sh
+
+BINARY=thunderbird
+BINARY_ARGS=$*
+MATCH=Mail.Thunderbird
+DELAY=4
+WORKSPACE=4
+MAXIMIZE=1
+
+launch

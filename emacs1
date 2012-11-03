@@ -1,0 +1,12 @@
+#!/bin/sh
+
+source $(dirname $0)/maclike-exec.sh
+
+BINARY=emacs
+BINARY_ARGS=$*
+MATCH=emacs.Emacs
+DELAY=0.5
+WORKSPACE=0
+FULLSCREEN=1
+
+launch

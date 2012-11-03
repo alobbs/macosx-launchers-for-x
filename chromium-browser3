@@ -1,0 +1,12 @@
+#!/bin/sh
+
+source $(dirname $0)/maclike-exec.sh
+
+BINARY=chromium-browser
+BINARY_ARGS=$*
+MATCH=chromium-browser.Chromium-browser
+DELAY=2
+WORKSPACE=2
+MAXIMIZE=1
+
+launch
